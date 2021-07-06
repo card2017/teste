@@ -6,8 +6,9 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            string nome = "SP";
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Teste");
+            Console.WriteLine("Teste" + nome);
         }
     }
 }
